@@ -9,7 +9,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import logging
 import asyncio
 
-bot = Bot('6113247845:AAGmISBzr1irMVh_FcpLsB2GRb-vLAD3HyI')
+bot = Bot('')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 dp.middleware.setup(LoggingMiddleware())
